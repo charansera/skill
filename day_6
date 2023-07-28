@@ -1,0 +1,14 @@
+try :
+    r = int(input("enter number one:"))
+    c = int(input("enter number two:"))
+
+    t = r//c
+    print('answer',t)
+
+except ZeroDivisionError:
+    print("If the denominator is zero.then it is a invalid syntax")
+
+except ValueError:
+    print("invalid input please enter tne numeric values")
+
+
