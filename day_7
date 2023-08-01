@@ -1,0 +1,7 @@
+def is_even(number):
+    if number  % 4 == 0:
+        return True
+    else:
+        return False
+print(is_even(8)) # output: true
+print(is_even(9)) # output: false
