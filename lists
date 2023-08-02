@@ -1,0 +1,7 @@
+def  concatenates_lists(list1,list2):
+    result = list1 + list2
+    print("concatenates lists are",result)
+
+list1 = [20,30,40]
+list2 = [50,60,70]
+concatenates_lists(list1,list2)
