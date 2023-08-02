@@ -1,0 +1,9 @@
+def  concatenates_list(list1,list2):
+    lists = list1 + list2
+    return concatenates_list
+
+list1 = ["jack"]
+list2 = ["rose"]
+result = list1 + list2
+print("concatenates list are",result)
+
