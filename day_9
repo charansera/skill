@@ -1,0 +1,15 @@
+keys = ['name','age','place']
+values = ['sushvardhan','20','kovur']
+data = dict(zip(keys,values))
+print(data)
+data['occupation'] = 'enginner'
+print(data)
+del data['name']
+print(data)
+data['place'] = 'hyderabad'
+print(data)
+
+print(dict,'age') #ouput: false
+print(dict,'name') #output: true
+
+
