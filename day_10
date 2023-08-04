@@ -1,0 +1,14 @@
+def set_to_list(set):
+    return list(set)
+
+
+def list_to_set(list):
+    return set(list)
+the_list = [20,30,40,50,60,70,80,90]
+
+the_set = list_to_set(the_list)
+print('changed set:',the_set)
+
+the_new_list = set_to_list(the_set)
+print('changed set:',the_new_list)
+
