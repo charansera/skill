@@ -1,0 +1,23 @@
+class Vehicle:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def display_info(self):
+        print("Brand:", self.brand)
+        print("Model:", self.model)
+
+
+class Truck(Vehicle):
+    def __init__(self, brand, model, load_capacity):
+        super().__init__(brand, model)
+        self.load_capacity = load_capacity
+
+    def display_info(self):
+        super().display_info()
+        print("Load Capacity:", self.load_capacity)
+
+
+# Create objects and test the solution
+truck = Truck("Ford", "F-150", "1000 kg")
+truck.display_info()
